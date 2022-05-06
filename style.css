@@ -11,6 +11,15 @@ flex-direction: column;
    ;
 }
 
+a {
+    text-decoration: none;
+    color:#f9faf8;
+}
+
+a:hover {
+    color:blue  !important;
+}
+
 .footer, .header {
     height: 80px;
     background-color: #1F2937;
@@ -18,7 +27,7 @@ flex-direction: column;
 }
 .footer {
     text-align:center;
-    color: ghostwhite;
+    color: #f9faf8;
 }
 
 
