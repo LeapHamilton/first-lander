@@ -23,6 +23,11 @@ a {
 a:hover {
     color:lightgreen !important;
 }
+
+.images a {
+    margin-right:-20px;
+}
+
 h1 {
     color: #f9faf8;
     font-size: 48px;
@@ -38,9 +43,11 @@ h1 {
     width: 700px;
     margin: auto;
     font-size: 36px;
-    font-style: light italic;
+    font-weight: lighter;
+    font-style: italic;
 }
 .speaker {
+    font-style:normal;
     font-weight: bold;
     text-align: right;
 }
@@ -88,7 +95,7 @@ h1 {
 button {
     background-color: #3882f6;
     color:#f9faf8;
-    padding: 10px 28px;
+    padding: 5px 28px;
     border-radius: 12%;
     font-weight: bolder;
 }
@@ -102,9 +109,29 @@ button:hover {
 p {
     color: #e5e7eB;
     font-size: 18px;
+    width: 350px;
 }
 
 
+.calltoaction {
+    padding: 100px 150px;
+    height: 150px;
+    background-color: white;
+}
+.box {
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 50px;
+    padding: 30px 80px;
+    padding-right: -30px;
+    color: white;
+    background-color: #3882f6;
+}
+
+.heading {
+    font-size: 24px;
+}
 
 .footer {
     flex-direction: column;
