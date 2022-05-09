@@ -1,11 +1,11 @@
 body {
     display: flex;
+    font-family: Helvetica, sans-serif;
 flex-direction: column;
 background-color: #1F2937;
 }
 
 .header {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +17,7 @@ background-color: #1F2937;
 a {
     text-decoration: none;
     color:#f9faf8;
+    margin-right: 30px;
 }
 
 a:hover {
@@ -27,6 +28,23 @@ h1 {
     font-size: 48px;
     font-weight:bolder;
 }
+
+.secondcontent {
+    background-color: #e5e7eB;
+    color: #1F2937;
+  
+}
+.quote {
+    width: 700px;
+    margin: auto;
+    font-size: 36px;
+    font-style: light italic;
+}
+.speaker {
+    font-weight: bold;
+    text-align: right;
+}
+
 .footer, .header {
     display: flex;
     height: 80px;
